@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anh in Montréal - Netflix CV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="netflix-container">
+        <header class="hero">
+            <!-- Video Background -->
+            <video class="background-video" autoplay muted loop>
+                <source src="background-video.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <!-- Content Positioned at Bottom Left -->
+            <div class="content">
+                <h1 class="show-title">ANH IN MONTREAL</h1>
+                <div class="hero-buttons">
+                    <button class="play-btn">
+                        <span class="play-icon">&#9658;</span> Play
+                    </button>
+                    <a href="https://phuonganh-tran.github.io/" target="_blank"><button class="portfolio-btn">View Portfolio</button></a>
+                    <button class="circle-btn">+</button>
+                    <button class="circle-btn">&#128077;</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Details Section -->
+        <section class="details">
+            <div class="summary">
+                <p class="gray">2025 Limited Series HD </p>
+                <p class="tagline">
+                    A neuroscience grad turned full-stack developer, Anh blends logic with
+                    creativity—one project at a time.
+                </p>
+            </div>
+            <div class="additional-info">
+                <p><strong>Cast:</strong> Phuong Anh Tran (Anh)</p>
+                <p><strong>Genres:</strong> Tech, Creativity, Web Development</p>
+                <p><strong>This show is:</strong> Analytical, Bilingual, Resourceful</p>
+            </div>
+        </section>
+
+        <!-- Episodes Section -->
+        <section class="episodes">
+            <h2>Episodes</h2>
+            <div class="episode-list">
+                <!-- Episode 1 -->
+                <div class="episode" onmouseover="highlightEpisode(this)" onmouseout="unhighlightEpisode(this)"
+                    onclick="showEpisodeDetail(this)">
+                    <span class="episode-number">1</span>
+                    <img src="upgen.png" alt="Episode 1" />
+                    <div class="episode-info">
+                        <h3>The Spark</h3>
+                        <p>
+                            Anh builds her first prototype at UpGen Bootcamp. The excitement is real—but so is the
+                            pressure to make her parents proud. Neuroscience feels like the ‘right’ path... but is it?
+                        </p>
+                    </div>
+                </div>
+                <!-- Episode 2 -->
+                <div class="episode" onmouseover="highlightEpisode(this)" onmouseout="unhighlightEpisode(this)"
+                    onclick="showEpisodeDetail(this)">
+                    <span class="episode-number">2</span>
+                    <img src="diploma.png" alt="Episode 2" />
+                    <div class="episode-info">
+                        <h3>The Science Years</h3>
+                        <p>
+                            She chooses Neuroscience at Université de Montréal, thinking med school is the goal. Labs,
+                            research, data—it’s all
+                            interesting, but something is missing… creativity.
+                        </p>
+                    </div>
+                </div>
+                <!-- Episode 3 -->
+                <div class="episode" onmouseover="highlightEpisode(this)" onmouseout="unhighlightEpisode(this)"
+                    onclick="showEpisodeDetail(this)">
+                    <span class="episode-number">3</span>
+                    <img src="code.png" alt="Episode 3" />
+                    <div class="episode-info">
+                        <h3>Breaking the Code</h3>
+                        <p>
+                            After earning her degree, Anh makes a choice: follow expectations or follow creativity? She
+                            takes the leap and pursues a Computer Science BSc at Université de Montréal, where she
+                            learns to code—front-end, back-end, APIs. This time, problem-solving feels right.
+                        </p>
+                    </div>
+                </div>
+                <!-- Episode 4 -->
+                <div class="episode" onmouseover="highlightEpisode(this)" onmouseout="unhighlightEpisode(this)"
+                    onclick="showEpisodeDetail(this)">
+                    <span class="episode-number">4</span>
+                    <a href="https://phuonganh-tran.github.io/#projects" target="_blank"><img src="project.png" alt="Episode 4" /></a>
+                    <div class="episode-info">
+                        <h3>Creative Code in Action</h3>
+                        <p>
+                            Anh applies her skills to real-world projects, creating AI-powered and interactive web apps
+                            that merge creativity with functionality.
+                        </p>
+                    </div>
+                </div>
+                <!-- Episode 5 -->
+                <div class="episode" onmouseover="highlightEpisode(this)" onmouseout="unhighlightEpisode(this)"
+                    onclick="showEpisodeDetail(this)">
+                    <span class="episode-number">5</span>
+                    <img src="sidlee.png" alt="Episode 5" />
+                    <div class="episode-info">
+                        <h3>Sid Lee Bound?</h3>
+                        <p>
+                            Anh is ready for the next chapter—with her passion for UX/UI and web development, she’s
+                            ready to bring her skills to Sid Lee and create something extraordinary.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bonus Features Section -->
+        <section class="bonus-features">
+            <h2>Bonus Features</h2>
+            <div class="bonus-list">
+                <!-- Bonus Feature 1 -->
+                <div class="bonus-item" onmouseover="highlightBonus(this)" onmouseout="unhighlightBonus(this)"
+                    onclick="showBonusDetail(this)">
+                    <a href="https://github.com/PhuongAnh-Tran" target="_blank"><img src="github.png" alt="Bonus Feature 1" /></a>
+                    <div class="bonus-info">
+                        <h3>Behind the Scenes</h3>
+                        <p>
+                            <strong>Tech Stack:</strong> HTML/CSS, JavaScript, React.js, Node.js, Python, Java
+                        </p>
+                    </div>
+                </div>
+                <!-- Bonus Feature 2 -->
+                <!-- <div class="bonus-item" onmouseover="highlightBonus(this)" onmouseout="unhighlightBonus(this)"
+                    onclick="showBonusDetail(this)">
+                    <img src="bonus2.jpg" alt="Bonus Feature 2" />
+                    <div class="bonus-info">
+                        <h3>Developer Diary</h3>
+                        <p>
+                            Insights, struggles, and triumphs from the journey of building the application.
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Modal for Enlarged Image -->
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-image" alt="Enlarged Image" />
+        </div>
+
+        <!-- Footer -->
+        <!-- <footer>
+            <p><strong>Tech Stack:</strong> HTML/CSS, JavaScript, React.js, Node.js, Python, Java</p>
+        </footer> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
