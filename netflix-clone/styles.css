@@ -126,7 +126,7 @@ body {
 
 /* DETAILS SECTION */
 .details {
-  padding: 20px;
+  margin: 50px 60px 30px 60px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -142,6 +142,14 @@ body {
   text-align: left;
 }
 
+.additional-info {
+  margin-left: 20%;
+}
+
+span {
+  color: var(--light-gray);
+}
+
 .details p {
   margin-bottom: 10px;
 }
@@ -152,7 +160,7 @@ body {
 
 /* EPISODES SECTION */
 .episodes {
-  padding: 20px;
+  margin: 25px 60px 10px 60px;
 }
 
 .episodes h2 {
@@ -214,7 +222,7 @@ body {
 
 /* BONUS FEATURES SECTION */
 .bonus-features {
-  padding: 20px;
+  margin: 30px 60px 30px 60px;
 }
 
 .bonus-features h2 {
