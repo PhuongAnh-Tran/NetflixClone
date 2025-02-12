@@ -80,7 +80,7 @@ body {
   border-radius: 3px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px; 
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -97,7 +97,8 @@ body {
   padding: 10px 20px;
   font-size: 1rem;
   border: none;
-  background-color: #e50914;
+  background: linear-gradient(90deg, #e6434b, #a24cb1);
+  border-radius: 3px;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
