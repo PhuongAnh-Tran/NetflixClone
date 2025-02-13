@@ -88,7 +88,7 @@ const closeVideoBtn = videoModal.querySelector('.close-video');
 // When the play button is clicked, open the video modal and play the video
 playBtn.addEventListener('click', () => {
   // Set the video source 
-  modalVideoSource.src = 'assets/intro.mov';
+  modalVideoSource.src = 'assets/intro.mp4';
 
   // Show the modal and load/play the video
   videoModal.style.display = 'block';
